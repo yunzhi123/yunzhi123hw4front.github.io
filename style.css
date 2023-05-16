@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 標楷體;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 標楷體;
+    font-weight: 300;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    position: relative;
+    height: 50%;
+    width: 20%;
+    background: transparent;
+    outline: black;
+    font-size: 0.8em;
+    border-radius: 8px;
+    font-weight: 300;
+}
+
+button[type="submit"] {
+    position: relative;
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    font-size: 0.8em;
+    color: aliceblue;
+    background-color: grey;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    transition: .5s;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    border: 2px solid white;
+    background-color: darkgrey;
+    color: white;
+}
+
+button[name="show"] {
+    width:80px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
